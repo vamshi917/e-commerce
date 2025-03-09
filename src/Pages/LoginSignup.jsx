@@ -37,7 +37,7 @@ const LoginSignup = () => {
         body: JSON.stringify({
           name,
           email,
-          password
+          password,
         }),
         headers: {
           Accept: 'application/json',
